@@ -1,0 +1,67 @@
+body{
+	background-image: url(../img/flor.jpg);
+}
+
+/* Configurações: formulário, label e input*/
+#formulario{
+
+	position: absolute;
+	top: 35%;
+	right: 35%;
+	font-family: arial;
+	font-size: 18px;
+	margin: 10px;
+	padding: 10px;
+	color: black;
+	background-color: lightgray;
+	width: 500px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	width: 25%;
+}
+
+label, input{
+
+	position: relative;
+	margin: 5px 0px 0px 3px;
+	display: block;
+	border-radius: 2px;
+	padding: 5px;
+	width: 50%;
+	right: -15%;
+}
+
+
+label{
+	font-weight: bold;
+}
+
+#enviar{
+	background-color: rgb(153, 3, 55);
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+}
+
+/* -------------------------- */
+
+/*Configurações imagem de Background*/
+.flor-image{
+	position: relative;
+	margin: 10px;
+	clear: both;
+	border: 1px solid black;
+
+	right: -50%;
+	width: 25%;
+}
+
+.flor-image img{
+	
+	margin: 2px;
+	text-align: center;
+	width: 75%;
+	height: 75%;
+	
+}
+/*--------------------------*/

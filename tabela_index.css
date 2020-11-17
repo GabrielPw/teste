@@ -1,0 +1,39 @@
+/*Links de URL dentro da tabela*/
+.links{
+	position: absolute;
+	right: 0;
+	margin: 10px;
+	bottom: 100px;
+	width: 25%;
+	height: 25%;
+}
+
+/* Configurações: Título da tabela */
+table th{
+	color: white;
+	padding: 5px;
+	text-align: center;
+	width: 100%;
+	background-color: rgb(153, 3, 55); 
+}
+
+table{
+	
+	font-weight: bold;
+	font-size: 18px;
+	background-color: gray;
+}
+
+table td{
+
+	padding: 5px;
+	margin: 0px;
+	
+	background-color: gray;
+}
+
+.nome{
+
+	background-color: darkgray;	
+}
+
